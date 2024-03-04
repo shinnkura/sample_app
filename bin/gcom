@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "コミットメッセージを入力してください："
+read COMIT_MESE
+
+git add .
+git commit -m "$COMIT_MESE"
